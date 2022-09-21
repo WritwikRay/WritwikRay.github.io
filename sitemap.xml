@@ -4,7 +4,7 @@
   
   
   <url>
-    <loc>https://example.com/post/first_post/</loc>
+    <loc>https://writwikray.github.io/post/first_post/</loc>
     <lastmod>2022-09-20T23:32:40+05:30</lastmod>
     
     
@@ -18,7 +18,7 @@
   
   
   <url>
-    <loc>https://example.com/post/</loc>
+    <loc>https://writwikray.github.io/post/</loc>
     <lastmod>2022-09-20T23:32:40+05:30</lastmod>
     
     <changefreq>monthly</changefreq>
@@ -32,7 +32,7 @@
   
   
   <url>
-    <loc>https://example.com/</loc>
+    <loc>https://writwikray.github.io/</loc>
     <lastmod>2022-09-20T23:32:40+05:30</lastmod>
     
     <changefreq>monthly</changefreq>
@@ -46,7 +46,7 @@
   
   
   <url>
-    <loc>https://example.com/tags/hugo/</loc>
+    <loc>https://writwikray.github.io/tags/hugo/</loc>
     <lastmod>2020-10-27T06:04:12+07:00</lastmod>
     
     <changefreq>monthly</changefreq>
@@ -60,7 +60,7 @@
   
   
   <url>
-    <loc>https://example.com/tags/snippet/</loc>
+    <loc>https://writwikray.github.io/tags/snippet/</loc>
     <lastmod>2020-10-27T06:04:12+07:00</lastmod>
     
     <changefreq>monthly</changefreq>
@@ -74,7 +74,7 @@
   
   
   <url>
-    <loc>https://example.com/snippet/</loc>
+    <loc>https://writwikray.github.io/snippet/</loc>
     <lastmod>2020-10-27T06:04:12+07:00</lastmod>
     
     <changefreq>monthly</changefreq>
@@ -88,7 +88,7 @@
   
   
   <url>
-    <loc>https://example.com/snippet/example-snippet/</loc>
+    <loc>https://writwikray.github.io/snippet/example-snippet/</loc>
     <lastmod>2020-10-27T06:04:12+07:00</lastmod>
     
     
@@ -102,7 +102,7 @@
   
   
   <url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://writwikray.github.io/tags/</loc>
     <lastmod>2020-10-27T06:04:12+07:00</lastmod>
     
     <changefreq>monthly</changefreq>
@@ -116,7 +116,7 @@
   
   
   <url>
-    <loc>https://example.com/about/</loc>
+    <loc>https://writwikray.github.io/about/</loc>
     
     <changefreq>monthly</changefreq>
     
@@ -129,7 +129,7 @@
   
   
   <url>
-    <loc>https://example.com/categories/</loc>
+    <loc>https://writwikray.github.io/categories/</loc>
     
     <changefreq>monthly</changefreq>
     
@@ -142,7 +142,7 @@
   
   
   <url>
-    <loc>https://example.com/contact/</loc>
+    <loc>https://writwikray.github.io/contact/</loc>
     
     <changefreq>monthly</changefreq>
     
@@ -155,7 +155,7 @@
   
   
   <url>
-    <loc>https://example.com/search/</loc>
+    <loc>https://writwikray.github.io/search/</loc>
     
     <changefreq>monthly</changefreq>
     

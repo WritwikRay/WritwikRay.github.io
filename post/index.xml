@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Post 📝 on Weekends with Ray</title>
-    <link>https://example.com/post/</link>
+    <link>https://writwikray.github.io/post/</link>
     <description>Recent content in Post 📝 on Weekends with Ray</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>writwikray@gmail.com (Writwik Ray)</managingEditor>
     <webMaster>writwikray@gmail.com (Writwik Ray)</webMaster>
-    <lastBuildDate>Tue, 20 Sep 2022 23:32:40 +0530</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Sep 2022 23:32:40 +0530</lastBuildDate><atom:link href="https://writwikray.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Post</title>
-      <link>https://example.com/post/first_post/</link>
+      <link>https://writwikray.github.io/post/first_post/</link>
       <pubDate>Tue, 20 Sep 2022 23:32:40 +0530</pubDate>
       <author>writwikray@gmail.com (Writwik Ray)</author>
-      <guid>https://example.com/post/first_post/</guid>
+      <guid>https://writwikray.github.io/post/first_post/</guid>
       <description>Hi there! In this first post I welcome everyone to my blog which is planned mainly to amalgamate all the different varieties of solutions I have been discovering in my University journey as a student.</description>
     </item>
     
