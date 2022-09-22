@@ -1,6 +1,11 @@
 img {
   border-radius: 25px;
+  text-align: center;
 }
 figcaption {
   text-align: center;
 }
+.center{
+		text-align: center;
+}
+

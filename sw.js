@@ -1,4 +1,4 @@
-const BUILD_DATE = "2022-09-21";   const BASE_CACHE_FILES = [
+const BUILD_DATE = "2022-09-22";   const BASE_CACHE_FILES = [
     '/css/bundle.min.css',
     '/js/bundle.min.js',
     'https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.0/lazysizes.min.js',
