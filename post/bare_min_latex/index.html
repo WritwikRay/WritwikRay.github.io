@@ -19,7 +19,7 @@
 	<meta itemprop="name" content="Bare-minimum LaTex">
 <meta itemprop="description" content="In this article I encourage you to start off learning LaTex by covering only the very basics, the bare-minimum."><meta itemprop="datePublished" content="2022-10-14T19:20:07+05:30" />
 <meta itemprop="dateModified" content="2022-10-14T19:20:07+05:30" />
-<meta itemprop="wordCount" content="245"><meta itemprop="image" content="https://writwikray.github.io/bare_min_LaTex.png">
+<meta itemprop="wordCount" content="341"><meta itemprop="image" content="https://writwikray.github.io/bare_min_LaTex.png">
 <meta itemprop="keywords" content="LaTex,Tutorial,Note-taking,Productivity," />
 	<link rel="stylesheet" href="/css/bundle.min.css">
 	<link rel="stylesheet" href="https://writwikray.github.io/css/custom.css">
@@ -94,7 +94,7 @@
 	"description":"In this article I encourage you to start off learning LaTex by covering only the very basics, the bare-minimum.",
 	"isFamilyFriendly": "true",
 	"image":  ["https://writwikray.github.io/bare_min_LaTex.png"] ,
-	"wordCount" : "245",
+	"wordCount" : "341",
 	"keywords": ["LaTex","Tutorial","Note-taking","Productivity"],
 	"genre": ["LaTex","Tutorial","Note-taking","Productivity"],
 	"accountablePerson": {
@@ -312,6 +312,8 @@ if (!doNotTrack) {
         <nav id="TableOfContents">
   <ul>
     <li><a href="#lets-begin">Let&rsquo;s begin!</a></li>
+    <li><a href="#creating-your-first-document">Creating your first document</a></li>
+    <li><a href="#my-choice-of-editor-and-setup">My choice of editor and setup</a></li>
   </ul>
 </nav>
     </div>
@@ -331,10 +333,23 @@ that head over to the official website and follow directions for your own OS. Th
 editor of choice. You can use any text-editor of your preference, however it is nice to know that there
 are several &ldquo;tex-editors&rdquo; also available (see what I did there!) One of the best editors is Kile! And if
 you&rsquo;re on Windows&hellip;then maybe try Linux for a spin?!?! Kidding, you can use TexStudio. Whatever is your
-choice, learn the basic controls of that editor first before delviong into learning LaTex. By this what I
+choice, learn the basic controls of that editor first before delving into learning LaTex. By this what I
 mean is this: No matter what editor you use, you have to know that LaTex is a compiled language, meaning,
 you first write some code, then you run a compiler over it (by hitting the compile button on the editor
 controls), and you have a pdf file generated (or maybe just a preview generated).</p>
+<p>I would recommend beginners to start out with either Kile or Overleaf, as both of them are very beginner
+friendly and easy to use.</p>
+<h2 id="creating-your-first-document" itemprop="headline" class="heading">Creating your first document <a class="anchor-link" href="#creating-your-first-document">#</a></h2>
+<p>Now let&rsquo;s get started (for real). Every LaTex document starts out with the following code:</p>
+<p>&rsquo;&rsquo;'
+\documentclass{article}
+\begin{document}
+This is a test.
+\end{document}
+&rsquo;''</p>
+<h2 id="my-choice-of-editor-and-setup" itemprop="headline" class="heading">My choice of editor and setup <a class="anchor-link" href="#my-choice-of-editor-and-setup">#</a></h2>
+<p>I use vim to edit all my files and I have special keybinds to compile the code! More on this later, since
+vim is really a very large topic and I hope to cover it soon!</p>
 
 				
     <hr>
