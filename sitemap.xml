@@ -4,106 +4,8 @@
   
   
   <url>
-    <loc>https://writwikray.github.io/post/bare_min_latex/</loc>
-    <lastmod>2022-10-14T19:20:07+05:30</lastmod>
-    
-    
-    
-    
-    <priority>-1</priority>
-    
-    
-  </url>
-  
-  
-  
-  <url>
     <loc>https://writwikray.github.io/tags/latex/</loc>
-    <lastmod>2022-10-14T19:20:07+05:30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    
-     
-    <priority>0.3</priority>
-    
-    
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://writwikray.github.io/tags/note-taking/</loc>
-    <lastmod>2022-10-14T19:20:07+05:30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    
-     
-    <priority>0.3</priority>
-    
-    
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://writwikray.github.io/post/</loc>
-    <lastmod>2022-10-14T19:20:07+05:30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    
-     
-    <priority>0.3</priority>
-    
-    
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://writwikray.github.io/tags/productivity/</loc>
-    <lastmod>2022-10-14T19:20:07+05:30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    
-     
-    <priority>0.3</priority>
-    
-    
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://writwikray.github.io/tags/</loc>
-    <lastmod>2022-10-14T19:20:07+05:30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    
-     
-    <priority>0.3</priority>
-    
-    
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://writwikray.github.io/tags/tutorial/</loc>
-    <lastmod>2022-10-14T19:20:07+05:30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    
-     
-    <priority>0.3</priority>
-    
-    
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://writwikray.github.io/</loc>
-    <lastmod>2022-10-14T19:20:07+05:30</lastmod>
+    <lastmod>2022-09-21T19:22:00+05:30</lastmod>
     
     <changefreq>monthly</changefreq>
     
@@ -123,6 +25,76 @@
     
     
     <priority>-1</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://writwikray.github.io/tags/note-taking/</loc>
+    <lastmod>2022-09-21T19:22:00+05:30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    
+     
+    <priority>0.3</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://writwikray.github.io/post/</loc>
+    <lastmod>2022-09-21T19:22:00+05:30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    
+     
+    <priority>0.3</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://writwikray.github.io/tags/productivity/</loc>
+    <lastmod>2022-09-21T19:22:00+05:30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    
+     
+    <priority>0.3</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://writwikray.github.io/tags/</loc>
+    <lastmod>2022-09-21T19:22:00+05:30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    
+     
+    <priority>0.3</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://writwikray.github.io/</loc>
+    <lastmod>2022-09-21T19:22:00+05:30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    
+     
+    <priority>0.3</priority>
     
     
   </url>

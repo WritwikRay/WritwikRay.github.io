@@ -8,16 +8,7 @@
     <language>en-us</language>
     <managingEditor>writwikray@gmail.com (Writwik Ray)</managingEditor>
     <webMaster>writwikray@gmail.com (Writwik Ray)</webMaster>
-    <lastBuildDate>Fri, 14 Oct 2022 19:20:07 +0530</lastBuildDate><atom:link href="https://writwikray.github.io/post/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Bare-minimum LaTex</title>
-      <link>https://writwikray.github.io/post/bare_min_latex/</link>
-      <pubDate>Fri, 14 Oct 2022 19:20:07 +0530</pubDate>
-      <author>writwikray@gmail.com (Writwik Ray)</author>
-      <guid>https://writwikray.github.io/post/bare_min_latex/</guid>
-      <description>In this article I encourage you to start off learning LaTex by covering only the very basics, the bare-minimum.</description>
-    </item>
-    
+    <lastBuildDate>Wed, 21 Sep 2022 19:22:00 +0530</lastBuildDate><atom:link href="https://writwikray.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LaTex for Everyone</title>
       <link>https://writwikray.github.io/post/latex_for_everyone/</link>
