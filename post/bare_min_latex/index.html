@@ -19,7 +19,7 @@
 	<meta itemprop="name" content="Bare-minimum LaTex">
 <meta itemprop="description" content="In this article I encourage you to start off learning LaTex by covering only the very basics, the bare-minimum."><meta itemprop="datePublished" content="2022-10-14T19:20:07+05:30" />
 <meta itemprop="dateModified" content="2022-10-14T19:20:07+05:30" />
-<meta itemprop="wordCount" content="720"><meta itemprop="image" content="https://writwikray.github.io/bare_min_LaTex.png">
+<meta itemprop="wordCount" content="1323"><meta itemprop="image" content="https://writwikray.github.io/bare_min_LaTex.png">
 <meta itemprop="keywords" content="LaTex,Tutorial,Note-taking,Productivity," />
 	<link rel="stylesheet" href="/css/bundle.min.css">
 	<link rel="stylesheet" href="https://writwikray.github.io/css/custom.css">
@@ -94,7 +94,7 @@
 	"description":"In this article I encourage you to start off learning LaTex by covering only the very basics, the bare-minimum.",
 	"isFamilyFriendly": "true",
 	"image":  ["https://writwikray.github.io/bare_min_LaTex.png"] ,
-	"wordCount" : "720",
+	"wordCount" : "1323",
 	"keywords": ["LaTex","Tutorial","Note-taking","Productivity"],
 	"genre": ["LaTex","Tutorial","Note-taking","Productivity"],
 	"accountablePerson": {
@@ -280,7 +280,7 @@ if (!doNotTrack) {
     </span>
     <span>·</span>
     <span>
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-book-open"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg> 4 min read
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-book-open"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg> 7 min read
     </span>
 </p>
 	
@@ -313,6 +313,7 @@ if (!doNotTrack) {
   <ul>
     <li><a href="#lets-begin">Let&rsquo;s begin!</a></li>
     <li><a href="#creating-your-first-document">Creating your first document</a></li>
+    <li><a href="#practice-practice-and-practice">Practice, practice and practice</a></li>
     <li><a href="#my-choice-of-editor-and-setup">My choice of editor and setup</a></li>
   </ul>
 </nav>
@@ -340,13 +341,13 @@ controls), and you have a pdf file generated (or maybe just a preview generated)
 <p>I would recommend beginners to start out with either Kile or Overleaf, as both of them are very beginner
 friendly and easy to use.</p>
 <h2 id="creating-your-first-document" itemprop="headline" class="heading">Creating your first document <a class="anchor-link" href="#creating-your-first-document">#</a></h2>
-<p>Now let&rsquo;s get started (for real). Every LaTex document starts out with the following code:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="ln">1</span><span class="cl">	<span class="k">\documentclass</span><span class="nb">{</span>article<span class="nb">}</span>
+<p>Now let&rsquo;s get started (for real). Every LaTex document starts out with something along the following code:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="ln">1</span><span class="cl">	<span class="k">\documentclass</span><span class="na">[10pt]</span><span class="nb">{</span>article<span class="nb">}</span>
 </span></span><span class="line"><span class="ln">2</span><span class="cl">	<span class="k">\begin</span><span class="nb">{</span>document<span class="nb">}</span>
-</span></span><span class="line"><span class="ln">3</span><span class="cl">	This is a test.
+</span></span><span class="line"><span class="ln">3</span><span class="cl">	Hello World!
 </span></span><span class="line"><span class="ln">4</span><span class="cl">	<span class="k">\end</span><span class="nb">{</span>document<span class="nb">}</span>
 </span></span></code></pre></div><p>Go ahead and compile the document! Great, you have now created your first-ever LaTex document. Now let&rsquo;s
-actually unbderstand what this bit of code is doing. Every LaTex file is primarily divided into two
+actually understand what this bit of code is doing. Every LaTex file is primarily divided into two
 portions: 1. the preamble and 2.the document portion or the actual content of the document. The preamble
 is everything inbetween the <code>\documentclass</code> declaration and the <code>\begin{document}</code> portion. In the
 example above we can&rsquo;t really see the preamble portion, but there we will declare all the libraries we
@@ -357,17 +358,22 @@ install libraries to run some extra functionalities. We will come to this soon.<
 <p>The second portion of any LaTex document is the actual content of the document, this resides between the
 <code>\begin{document}</code> and the <code>\end{document}</code> tags. In the example above we have simply added one line of
 text to show in the final pdf.</p>
+<p>The <code>\documentclass</code> declaration is what tells the LaTex compiler about the type of the document it is
+going to be, there are several &ldquo;classes&rdquo; of documents, the most commonly used one is the &ldquo;article&rdquo; class.
+We will learn about more classes in later posts. (The <code>[10pt]</code> defines the text-size used in the
+document). In LaTex, always remember most optional arguments are written inside third brackets (<code>[]</code>) and most
+arguments are written inside second-brackets (<code>{}</code>).</p>
 <p>Let&rsquo;s first concentrate on the arrangement of lines. You will notice that whitespace is ignored in LaTex.
-What I mean byu this is the following bit of code will generate the same output as the one above.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="ln">1</span><span class="cl">	<span class="k">\documentclass</span><span class="nb">{</span>article<span class="nb">}</span>
+What I mean by this is that the following bit of code will generate the same output as the one above.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="ln">1</span><span class="cl">	<span class="k">\documentclass</span><span class="na">[10pt]</span><span class="nb">{</span>article<span class="nb">}</span>
 </span></span><span class="line"><span class="ln">2</span><span class="cl">	<span class="k">\begin</span><span class="nb">{</span>document<span class="nb">}</span>
-</span></span><span class="line"><span class="ln">3</span><span class="cl">						This is a test.
+</span></span><span class="line"><span class="ln">3</span><span class="cl">						Hello World!
 </span></span><span class="line"><span class="ln">4</span><span class="cl">	<span class="k">\end</span><span class="nb">{</span>document<span class="nb">}</span>
 </span></span></code></pre></div><p>Line-endings are automatic, however if you want to end a line extra-early use double-backslash:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="ln">1</span><span class="cl"><span class="k">\documentclass</span><span class="na">[10pt]</span><span class="nb">{</span>article<span class="nb">}</span>
 </span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="k">\begin</span><span class="nb">{</span>document<span class="nb">}</span>
-</span></span><span class="line"><span class="ln">3</span><span class="cl">This is a test.<span class="k">\\</span>
-</span></span><span class="line"><span class="ln">4</span><span class="cl">This is another test. You can see that the line endings are automatically generated, please do not
+</span></span><span class="line"><span class="ln">3</span><span class="cl">Hello World!<span class="k">\\</span>
+</span></span><span class="line"><span class="ln">4</span><span class="cl">This is another line. You can see that the line endings are automatically generated, please do not
 </span></span><span class="line"><span class="ln">5</span><span class="cl">confuse the line endings with the auto line-wraps you see in your editor. The text you may see in the
 </span></span><span class="line"><span class="ln">6</span><span class="cl">editor window is not always the way it is compiled in LaTex. Also, 				remember that whitespace
 </span></span><span class="line"><span class="ln">7</span><span class="cl">inside a line is ignored in LaTex!
@@ -375,7 +381,64 @@ What I mean byu this is the following bit of code will generate the same output 
 </span></span></code></pre></div><p>You might have already noticed the little gap in the first line, it doesn&rsquo;t really start at the same
 place the second line does. This is so because, it is percieved as the beginning of a new paragraph and
 LaTex has automatic indentation. If you want to start a new paragraph, simple add an empty line and then
-start writing again!</p>
+start writing again! To avoid indentation add <code>\noindent</code> to the beginning of the line.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="ln">1</span><span class="cl"><span class="k">\documentclass</span><span class="na">[10pt]</span><span class="nb">{</span>article<span class="nb">}</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="k">\begin</span><span class="nb">{</span>document<span class="nb">}</span>
+</span></span><span class="line"><span class="ln">3</span><span class="cl">This one is a new paragraph!
+</span></span><span class="line"><span class="ln">4</span><span class="cl">
+</span></span><span class="line"><span class="ln">5</span><span class="cl"><span class="k">\noindent</span> This one is yet another paragraph, but without the indentation.
+</span></span><span class="line"><span class="ln">6</span><span class="cl"><span class="k">\end</span><span class="nb">{</span>document<span class="nb">}</span>
+</span></span></code></pre></div><p>Now that you have learnt how to write lines and paragraphs, let&rsquo;s focus on titles and headings. The
+<code>article</code> class provides us to use some extra code within the document. Every class has some special
+extra code that can be used for that particular type of document. In <code>article</code> class, we have a way of
+sectioning the document, and within the sections, we pass the title of the section as an argument, thus
+creating our titles and headings. Sub-headings and Sub-sub-headings are also supported (By default the
+<code>article</code> class allows for 3 levels of sections, but it can be extended).</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="k">\documentclass</span><span class="na">[10pt]</span><span class="nb">{</span>article<span class="nb">}</span>
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl"><span class="k">\begin</span><span class="nb">{</span>document<span class="nb">}</span>
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl"><span class="k">\section</span><span class="nb">{</span>First section<span class="nb">}</span>
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl">This is a section.
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl"><span class="k">\subsection</span><span class="nb">{</span>Subsection under the first section<span class="nb">}</span>
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl">This is a subsection under the section, notice the numbering and the font size of the heading?
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl"><span class="k">\subsubsection</span><span class="nb">{</span>Subsubsection under the first section<span class="nb">}</span>
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl">This is the last level of subsubsection, we can&#39;t go beyond this level with the default configuration.
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl">For most applications, this is enough.
+</span></span><span class="line"><span class="ln">10</span><span class="cl"><span class="k">\end</span><span class="nb">{</span>document<span class="nb">}</span>
+</span></span></code></pre></div><p>If you want the sections to not be numbered you will have to add an asterisk (<code>*</code>) after the <code>\section</code>.
+Also remember, the section declarations without the asterisks will be numbered in the order they are
+positioned inside the document, run the below code in your own machine to understand this.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="k">\documentclass</span><span class="na">[10pt]</span><span class="nb">{</span>article<span class="nb">}</span>
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl"><span class="k">\begin</span><span class="nb">{</span>document<span class="nb">}</span>
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl"><span class="k">\section</span><span class="nb">{</span>First section<span class="nb">}</span>
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl">This is a section.
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl"><span class="k">\subsection</span><span class="nb">{</span>Subsection under the first section<span class="nb">}</span>
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl">This is a subsection under the section, notice the numbering and the font size of the heading?
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl"><span class="k">\subsubsection</span><span class="nb">{</span>Subsubsection under the first section<span class="nb">}</span>
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl">This is the last level of subsubsection, we can&#39;t go beyond this level with the default configuration.
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl">For most applications, this is enough.
+</span></span><span class="line"><span class="ln">10</span><span class="cl">
+</span></span><span class="line"><span class="ln">11</span><span class="cl"><span class="k">\section*</span><span class="nb">{</span>Section without numbering<span class="nb">}</span>
+</span></span><span class="line"><span class="ln">12</span><span class="cl">
+</span></span><span class="line"><span class="ln">13</span><span class="cl"><span class="k">\section</span><span class="nb">{</span>Another section<span class="nb">}</span>
+</span></span><span class="line"><span class="ln">14</span><span class="cl"><span class="k">\end</span><span class="nb">{</span>document<span class="nb">}</span>
+</span></span></code></pre></div><p>Now, let&rsquo;s learn the very basics of text-formats, i.e. how to write bold, italics and underline text in
+LaTex. For most formatting we require to write the content inside some braces and outside the braces we
+give the commands for that format. The <code>\textbf{}</code> command is what makes the bold-text, similarly,
+<code>\textit{}</code> is for italics and for underlining we simply use the <code>\underline{}</code> command.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="ln">1</span><span class="cl"><span class="k">\documentclass</span><span class="na">[10pt]</span><span class="nb">{</span>article<span class="nb">}</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="k">\begin</span><span class="nb">{</span>document<span class="nb">}</span>
+</span></span><span class="line"><span class="ln">3</span><span class="cl"><span class="k">\textbf</span><span class="nb">{</span>This is some bold text.<span class="nb">}</span><span class="k">\\</span>
+</span></span><span class="line"><span class="ln">4</span><span class="cl"><span class="k">\textit</span><span class="nb">{</span>This is some italicized text.<span class="nb">}</span><span class="k">\\</span>
+</span></span><span class="line"><span class="ln">5</span><span class="cl"><span class="k">\underline</span><span class="nb">{</span>This is some underlined text.<span class="nb">}</span><span class="k">\\</span>
+</span></span><span class="line"><span class="ln">6</span><span class="cl"><span class="k">\end</span><span class="nb">{</span>document<span class="nb">}</span>
+</span></span></code></pre></div><h2 id="practice-practice-and-practice" itemprop="headline" class="heading">Practice, practice and practice <a class="anchor-link" href="#practice-practice-and-practice">#</a></h2>
+<p>Now that you have the bare-minimum covered, head over to the editor and spend some time writing LaTex on
+your own. All of this may feel a bit cryptic at first, but the more time you spend writing code on your
+own, the more natural will it become. Write some of your own notes in LaTex and be willing to search up
+on how to do even more new things, you are not constricted to only the bare-minimum, explore and uncover
+new code to do the things you want in your document! As you might have noticed LaTex offers a lot of
+automatic configurations (the area of the text-content inside the page for example) that we did not cover in
+this article, we will covering that on our next post, so be sure to keep a lookout!</p>
 <h2 id="my-choice-of-editor-and-setup" itemprop="headline" class="heading">My choice of editor and setup <a class="anchor-link" href="#my-choice-of-editor-and-setup">#</a></h2>
 <p>I use vim to edit all my files and I have special keybinds to compile the code! More on this later, since
 vim is really a very large topic and I hope to cover it soon!</p>
@@ -567,7 +630,7 @@ vim is really a very large topic and I hope to cover it soon!</p>
     
 
     if ('serviceWorker' in navigator) {
-        const buildDate = "10/14/22";
+        const buildDate = "10/15/22";
         navigator.serviceWorker
             .register("https://writwikray.github.io/sw.js", { scope: '/' })
             .then(function (registration) {
