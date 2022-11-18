@@ -19,7 +19,7 @@
 	<meta itemprop="name" content="Ahoy:Movie-watcher&#39;s Paradise">
 <meta itemprop="description" content="In this article we&rsquo;ll be writing a little script which will search the piratebay&rsquo;s website for the given movie title and return the resutls."><meta itemprop="datePublished" content="2022-11-18T09:25:18+05:30" />
 <meta itemprop="dateModified" content="2022-11-18T09:25:18+05:30" />
-<meta itemprop="wordCount" content="683"><meta itemprop="image" content="https://writwikray.github.io/ahoy-pirate-script.png">
+<meta itemprop="wordCount" content="735"><meta itemprop="image" content="https://writwikray.github.io/ahoy-pirate-script.png">
 <meta itemprop="keywords" content="bash,linux,entertainment," />
 	<link rel="stylesheet" href="/css/bundle.min.css">
 	<link rel="stylesheet" href="https://writwikray.github.io/css/custom.css">
@@ -94,7 +94,7 @@
 	"description":"In this article we\u0026rsquo;ll be writing a little script which will search the piratebay\u0026rsquo;s website for the given movie title and return the resutls.",
 	"isFamilyFriendly": "true",
 	"image":  ["https://writwikray.github.io/ahoy-pirate-script.png"] ,
-	"wordCount" : "683",
+	"wordCount" : "735",
 	"keywords": ["bash","linux","entertainment"],
 	"genre": ["bash","linux","entertainment"],
 	"accountablePerson": {
@@ -371,6 +371,11 @@ download the movie in the current folder:</p>
 </span></span><span class="line"><span class="ln"> 8</span><span class="cl">	<span class="nb">echo</span> <span class="s2">&#34;🎥 Enjoy Watching&#34;</span>
 </span></span><span class="line"><span class="ln"> 9</span><span class="cl">	webtorrent <span class="s2">&#34;</span><span class="nv">$magnet</span><span class="s2">&#34;</span> --vlc 
 </span></span><span class="line"><span class="ln">10</span><span class="cl"><span class="k">fi</span>
+</span></span></code></pre></div><h2 id="the-most-important-section" itemprop="headline" class="heading">The most important section <a class="anchor-link" href="#the-most-important-section">#</a></h2>
+<p>Now comes the most improtant section, giving a creative name to the script. We went with &ldquo;ahoy&rdquo;. You also
+have to make the script executable using the <code>chmod +x</code> command. First save the file with the name of
+your choice, then run the following command:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl">chmod+x &lt;script-name&gt;
 </span></span></code></pre></div><h2 id="full-script" itemprop="headline" class="heading">Full Script <a class="anchor-link" href="#full-script">#</a></h2>
 <p>The full script is given below:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="cp">#!/bin/bash
