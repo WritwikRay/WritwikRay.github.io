@@ -8,7 +8,16 @@
     <language>en-us</language>
     <managingEditor>writwikray@gmail.com (Writwik Ray)</managingEditor>
     <webMaster>writwikray@gmail.com (Writwik Ray)</webMaster>
-    <lastBuildDate>Mon, 14 Nov 2022 12:30:52 +0530</lastBuildDate><atom:link href="https://writwikray.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Nov 2022 09:25:18 +0530</lastBuildDate><atom:link href="https://writwikray.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ahoy:Movie-watcher&#39;s Paradise</title>
+      <link>https://writwikray.github.io/post/ahoy/</link>
+      <pubDate>Fri, 18 Nov 2022 09:25:18 +0530</pubDate>
+      <author>writwikray@gmail.com (Writwik Ray)</author>
+      <guid>https://writwikray.github.io/post/ahoy/</guid>
+      <description>In this article we&amp;rsquo;ll be writing a little script which will search the piratebay&amp;rsquo;s website for the given movie title and return the resutls.</description>
+    </item>
+    
     <item>
       <title>LaTeX Personalization</title>
       <link>https://writwikray.github.io/post/latex_personalization/</link>

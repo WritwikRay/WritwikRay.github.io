@@ -214,6 +214,27 @@ if (!doNotTrack) {
 				<img alt="Writwik Ray avatar" data-src="/img/avatar.webp" class="post__author-thumb lazyload" src="/img/placeholder.svg">
 				<div class="flex flex__column">
 					<a class="feed__author invert" href="/about">Writwik Ray</a>
+	<time itemprop="datePublished" class="feed__date" datetime="2022-11-18T09:25:18&#43;05:30">November 18, 2022</time>
+				</div>
+		</div>
+		<h2>
+			<a href="/post/ahoy/" class="invert">Ahoy:Movie-watcher&#39;s Paradise</a>
+		</h2>
+		<p>In this article we&rsquo;ll be writing a little script which will search the piratebay&rsquo;s website for the given movie title and return the resutls.</p>
+		
+<div class="post__tag">
+			<a href="/tags/bash/"># bash</a>
+			<a href="/tags/linux/"># linux</a>
+			<a href="/tags/entertainment/"># entertainment</a>
+</div>
+	</div>
+</article>
+				<article class="feed__item">
+	<div>
+		<div class="feed__meta">
+				<img alt="Writwik Ray avatar" data-src="/img/avatar.webp" class="post__author-thumb lazyload" src="/img/placeholder.svg">
+				<div class="flex flex__column">
+					<a class="feed__author invert" href="/about">Writwik Ray</a>
 	<time itemprop="datePublished" class="feed__date" datetime="2022-11-14T12:30:52&#43;05:30">November 14, 2022</time>
 				</div>
 		</div>
@@ -294,24 +315,30 @@ if (!doNotTrack) {
 </div>
 	</div>
 </article>
-				<article class="feed__item">
-	<div>
-		<div class="feed__meta">
-				<img alt="Writwik Ray avatar" data-src="/img/avatar.webp" class="post__author-thumb lazyload" src="/img/placeholder.svg">
-				<div class="flex flex__column">
-					<a class="feed__author invert" href="/about">Writwik Ray</a>
-	<time itemprop="datePublished" class="feed__date" datetime="2022-09-20T23:32:40&#43;05:30">September 20, 2022</time>
-				</div>
-		</div>
-		<h2>
-			<a href="/post/first_post/" class="invert">First Post</a>
-		</h2>
-		<p>Hi there! In this first post I welcome everyone to my blog which is planned mainly to amalgamate all the different varieties of solutions I have been discovering in my University journey as a student.</p>
-		
-	</div>
-</article>
 		</div>
 	
+<nav aria-label="pagination">
+    <ul class="post__tag pagination">
+    	
+        <li  class="pagination__item pagination__item__numbers"> 
+            
+            <a href="/" aria-label="Go to page 1"
+                class="pagination-link active">1</a>
+              
+            
+            <a href="/page/2/" aria-label="Go to page 2"
+                class="pagination-link ">2</a>
+             
+        </li>
+        
+        <li  class="pagination__item">
+            <a href="/page/2/" aria-label="Next page"
+                >Next</a>
+        </li>
+        
+    </ul>
+</nav>
+
 
 		</main>
 		<footer class="footer">
@@ -356,7 +383,7 @@ if (!doNotTrack) {
     
 
     if ('serviceWorker' in navigator) {
-        const buildDate = "11/15/22";
+        const buildDate = "11/18/22";
         navigator.serviceWorker
             .register("https://writwikray.github.io/sw.js", { scope: '/' })
             .then(function (registration) {
